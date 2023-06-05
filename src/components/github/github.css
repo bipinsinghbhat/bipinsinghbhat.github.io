@@ -1,0 +1,29 @@
+#github{
+    margin-top: 50rem;
+}
+
+.github_container{
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    
+}
+.github_container>div{
+    width:400px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* border: 1px solid red; */
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width:600px) {
+    #github{
+        margin-top: 130rem;
+    }
+    .github_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
