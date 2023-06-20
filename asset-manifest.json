@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0018deb8.css",
-    "main.js": "/static/js/main.6732313b.js",
+    "main.js": "/static/js/main.5b27f6a0.js",
     "static/media/dsw.png": "/static/media/dsw.d282bfb16ad6ff240fcd.png",
     "static/media/expedia.png": "/static/media/expedia.cb89362d5b666d57820c.png",
     "static/media/bmi.png": "/static/media/bmi.043da8898df618ddf50c.png",
@@ -11,10 +11,10 @@
     "static/media/Bipin_Bhat_Resume.pdf": "/static/media/Bipin_Bhat_Resume.8a0eeff10f54eefb75d9.pdf",
     "index.html": "/index.html",
     "main.0018deb8.css.map": "/static/css/main.0018deb8.css.map",
-    "main.6732313b.js.map": "/static/js/main.6732313b.js.map"
+    "main.5b27f6a0.js.map": "/static/js/main.5b27f6a0.js.map"
   },
   "entrypoints": [
     "static/css/main.0018deb8.css",
-    "static/js/main.6732313b.js"
+    "static/js/main.5b27f6a0.js"
   ]
 }
