@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.0e73a39d.css",
-    "main.js": "/static/js/main.298e9829.js",
+    "main.js": "/static/js/main.420f0d5c.js",
     "static/media/dsw.png": "/static/media/dsw.d282bfb16ad6ff240fcd.png",
     "static/media/expedia.png": "/static/media/expedia.cb89362d5b666d57820c.png",
     "static/media/limeroad.png": "/static/media/limeroad.e8c3f12644c0dbc931e4.png",
+    "static/media/unit5.png": "/static/media/unit5.2ddeccbb5ef09fa3800d.png",
     "static/media/image1.png": "/static/media/image1.4f2b95d533fd4d059832.png",
     "static/media/about.jpg": "/static/media/about.d5eaf512a78d4662f990.jpg",
-    "static/media/Bipin_Bhat_Resume.pdf": "/static/media/Bipin_Bhat_Resume.8a0eeff10f54eefb75d9.pdf",
+    "static/media/Bipin_Bhat_Resume.pdf": "/static/media/Bipin_Bhat_Resume.230640863ad3c4481287.pdf",
     "index.html": "/index.html",
     "main.0e73a39d.css.map": "/static/css/main.0e73a39d.css.map",
-    "main.298e9829.js.map": "/static/js/main.298e9829.js.map"
+    "main.420f0d5c.js.map": "/static/js/main.420f0d5c.js.map"
   },
   "entrypoints": [
     "static/css/main.0e73a39d.css",
-    "static/js/main.298e9829.js"
+    "static/js/main.420f0d5c.js"
   ]
 }
