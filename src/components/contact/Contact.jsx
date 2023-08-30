@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css';
 import {GrMail} from 'react-icons/gr'
 import {FaWhatsappSquare} from 'react-icons/fa'
-import  { useRef } from 'react';
+
 
 
 export const Contact = () => {
@@ -12,12 +12,14 @@ export const Contact = () => {
       <h5>Get in touch</h5>
       <h2>Contact me</h2>
       <div className='container contact_container'>
+        
         <div className='contact-options'>
+
           <article className='contact-option'>
             <GrMail className='icons'/>
           <h4>Email</h4>
           <h5>bipinsinghbhat1698@gmail.com</h5>
-          <a href="mailto:bipinsinghbhat1698@gmail.com" target='_blank'>Send a message</a>
+          <a href="mailto:bipinsinghbhat1698@gmail.com" target='blank'>Send a message</a>
           </article>
 
           <article className='contact-option'>
@@ -29,6 +31,7 @@ export const Contact = () => {
 
 
         </div>
+        
         <form >
           <input type="text" name='name' placeholder='Your full name' required/>
           <input type="email" name='email' placeholder='Your email' required/>

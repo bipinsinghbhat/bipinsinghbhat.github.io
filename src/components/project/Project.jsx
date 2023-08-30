@@ -3,8 +3,9 @@ import "./project.css";
 import expedia from "../../assets/expedia.png";
 import dsw from "../../assets/dsw.png";
 import lr from "../../assets/limeroad.png";
-import bmi from "../../assets/bmi.png";
-import { Github } from "../github/Github";
+import unit5 from "../../assets/unit5.png"
+
+
 
 export const Project = () => {
   return (
@@ -24,7 +25,7 @@ export const Project = () => {
           <div className="portfolio_item-cta">
             <a
               href="https://github.com/bipinsinghbhat/imaginary-blood-7556"
-              target="_blank"
+              target="blank"
               class="project-github-link"
             >
               GitHub
@@ -95,24 +96,24 @@ export const Project = () => {
 
         <article class="project-card">
           <div className="portfolio_item-img">
-            <img src={bmi} alt="expedia" />
+          <img src={unit5} alt="expedia" />
           </div>
-          <h3 class="project-title">Clone of Youtube</h3>
+          <h3 class="project-title">Clothing Website</h3>
           <p class="project-description">
-            Create a replicative design of the popular video-sharing platform,
-            YouTube, utilizing HTML, CSS &JavaScript as the primary technologies
+            Create a design of the popular e-commerce clothing website.
+           
           </p>
-          <p class="project-tech-stack"><h4>Tech Stacks:</h4>HTML | CSS | JavaScript</p>
+          <p class="project-tech-stack"><h4>Tech Stacks:</h4>React Redux | CSS | JavaScript| JSON Server| Bootstrap | Chakra UI</p>
           <div className="portfolio_item-cta">
             <a
-              href="https://github.com/shivammchaudhary1/youtube-clone"
+              href="https://github.com/Hariom70890/fun-devolopment-3171"
               target="_blank"
               class="project-github-link"
             >
               GitHub
             </a>
             <a
-              href="https://poetic-liger-38b8f6.netlify.app/"
+              href="https://quickbuy-363.netlify.app/"
               target="_blank"
               class="project-deployed-link"
             >
@@ -121,7 +122,7 @@ export const Project = () => {
           </div>
         </article>
 
-        {/* <Github/> */}
+      
       </div>
     </section>
   );

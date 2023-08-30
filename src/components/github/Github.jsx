@@ -43,15 +43,7 @@ export const Github = () => {
           class="react-activity-calendar"
         />
 
-        {/* <div class="react-activity-calendar">
-          <img
-            class="react-activity-calendar"
-            src="https://ghchart.rshah.org/shivammchaudhary1"
-            alt="chart"
-          />
-        </div> */}
-
-        {/* https://ghchart.rshah.org/shivammchaudhary1 */}
+      
       </div>
     </section>
   );

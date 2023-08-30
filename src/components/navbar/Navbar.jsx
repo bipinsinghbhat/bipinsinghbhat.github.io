@@ -1,7 +1,7 @@
 import './navbar.css';
 
 import React, { useState } from 'react'
-import data from './data'
+
 import resume from '../../assets/Bipin_Bhat_Resume.pdf'
 
 
@@ -12,30 +12,21 @@ import { SiBookstack } from "react-icons/si";
 import { BsStack } from "react-icons/bs";
 import { RiMessage2Fill } from "react-icons/ri";
 import {ImFolderDownload} from 'react-icons/im'
+import { Button } from '@chakra-ui/react';
+
+
 
 
 
 
 export const Navbar = () => {
-  // return (
-  //   <nav id='navbar' className="nav-link.home">
-  //       <div className='container nav__container'>
-  //         <a href="index.html" className='nav__logo'>Bipin Singh Bhat</a>
-  //         <ul id="nav-menu">
-  //           {
-  //             data.map(item => <li key={item.id}><a href={item.link}>{item.title} </a></li>)
-  //           }
-  //           <a href={resume} download target='blank'>Resume</a>
-  //         </ul>
-  //         {/* <button id='theme__icon'> <IoIosColorPalette/> </button> */}
-  //       </div>
-  //   </nav>
-  // )
+ 
 
   const [activeNav, setActiveNav] = useState("#");
 
   return (
     <nav id="nav-menu">
+     
       <a
         href="#"
         onClick={() => setActiveNav("#")}
@@ -44,7 +35,7 @@ export const Navbar = () => {
       >
       
         
-        <HiHome />
+        Home
           
       </a>
       
@@ -55,17 +46,19 @@ export const Navbar = () => {
         class="nav-link about"
       >
       
-        <MdContactPage />
+        Contact Page
       </a>
-      <a
+
+       <a
         href="#skills"
         onClick={() => setActiveNav("#skills")}
         className={activeNav === "#skills" ? "active" : ""}
         class="nav-link skills"
       >
       
-        <SiBookstack />
+        Skills
       </a>
+     
       <a
         href="#projects"
         onClick={() => setActiveNav("#projects")}
@@ -73,8 +66,10 @@ export const Navbar = () => {
         class="nav-link projects"
       >
       
-        <BsStack />
+        Projects
       </a>
+
+      
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
@@ -82,16 +77,30 @@ export const Navbar = () => {
         class="nav-link contact"
       >
       
-        <RiMessage2Fill />
+        Contact
       </a>
 
+      <Button
+            id="resume-button-1"
+            className="nav-link resume"
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1FTmwjzh-qF77twpLmWU9W0d0jXu2tYKI/view?usp=sharing",
+                "_blank"
+              );
+            }}
+          >
+
+
       <a href={resume}
+      id="resume-link-1"
         download
         target="_blank"
       >
        
         <ImFolderDownload/> 
-       </a> 
+       </a>
+       </Button>
      
     </nav>
   );

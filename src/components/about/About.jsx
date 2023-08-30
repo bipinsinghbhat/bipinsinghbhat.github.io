@@ -2,10 +2,11 @@ import React from 'react'
 import './About.css'
 import me from '../../assets/image1.png'
 import resume from '../../assets/Bipin_Bhat_Resume.pdf'
+import { Button } from '@chakra-ui/react'
 
 export const About = () => {
   return (
-    <section id='about'  class="about section">
+    <section id='about'  className="about section">
       <h5>Get to know</h5>
       <h2>About me</h2>
       <div className='container about__container'>
@@ -24,7 +25,21 @@ export const About = () => {
           </p>
           <div className='connect'>
           <a href="#contact" className='btn btn-primary'>Let's connect</a>
-          <button><a href={resume} download  target='_blank' id="resume-button-1">Resume</a></button>
+          {/* <button id="resume-button-2"><a href={resume} download  target='blank' id="resume-link-2">Resume</a></button> */}
+
+          <a
+                id="resume-link-2"
+                href={resume}
+                download
+                target='blank'
+              >
+                <Button id="resume-button-2">
+                  Resume 
+                </Button>
+              </a>
+
+
+
           </div>
           
       </div>
