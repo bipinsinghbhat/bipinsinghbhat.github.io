@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e73a39d.css",
-    "main.js": "/static/js/main.83d49b7e.js",
+    "main.css": "/static/css/main.d3244bec.css",
+    "main.js": "/static/js/main.86e35d41.js",
     "static/media/dsw.png": "/static/media/dsw.d282bfb16ad6ff240fcd.png",
     "static/media/expedia.png": "/static/media/expedia.cb89362d5b666d57820c.png",
     "static/media/limeroad.png": "/static/media/limeroad.e8c3f12644c0dbc931e4.png",
@@ -10,11 +10,11 @@
     "static/media/about.jpg": "/static/media/about.d5eaf512a78d4662f990.jpg",
     "static/media/Bipin_Bhat_Resume.pdf": "/static/media/Bipin_Bhat_Resume.230640863ad3c4481287.pdf",
     "index.html": "/index.html",
-    "main.0e73a39d.css.map": "/static/css/main.0e73a39d.css.map",
-    "main.83d49b7e.js.map": "/static/js/main.83d49b7e.js.map"
+    "main.d3244bec.css.map": "/static/css/main.d3244bec.css.map",
+    "main.86e35d41.js.map": "/static/js/main.86e35d41.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e73a39d.css",
-    "static/js/main.83d49b7e.js"
+    "static/css/main.d3244bec.css",
+    "static/js/main.86e35d41.js"
   ]
 }
