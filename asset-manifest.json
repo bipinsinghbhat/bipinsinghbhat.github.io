@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0e73a39d.css",
-    "main.js": "/static/js/main.83d49b7e.js",
+    "main.js": "/static/js/main.8b0b9c2c.js",
     "static/media/dsw.png": "/static/media/dsw.d282bfb16ad6ff240fcd.png",
     "static/media/expedia.png": "/static/media/expedia.cb89362d5b666d57820c.png",
     "static/media/limeroad.png": "/static/media/limeroad.e8c3f12644c0dbc931e4.png",
@@ -11,10 +11,10 @@
     "static/media/Bipin_Bhat_Resume.pdf": "/static/media/Bipin_Bhat_Resume.230640863ad3c4481287.pdf",
     "index.html": "/index.html",
     "main.0e73a39d.css.map": "/static/css/main.0e73a39d.css.map",
-    "main.83d49b7e.js.map": "/static/js/main.83d49b7e.js.map"
+    "main.8b0b9c2c.js.map": "/static/js/main.8b0b9c2c.js.map"
   },
   "entrypoints": [
     "static/css/main.0e73a39d.css",
-    "static/js/main.83d49b7e.js"
+    "static/js/main.8b0b9c2c.js"
   ]
 }
