@@ -27,7 +27,7 @@ export const About = () => {
           <a href="#contact" className='btn btn-primary'>Let's connect</a>
           {/* <button id="resume-button-2"><a href={resume} download  target='blank' id="resume-link-2">Resume</a></button> */}
 
-          <a
+          {/* <a
                 id="resume-link-2"
                 href={resume}
                 download
@@ -36,8 +36,30 @@ export const About = () => {
                 <Button id="resume-button-2">
                   Resume 
                 </Button>
-              </a>
+              </a> */}
 
+
+        <Button
+            id="resume-button-2"
+           
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1FTmwjzh-qF77twpLmWU9W0d0jXu2tYKI/view?usp=sharing",
+                "_blank"
+              );
+            }}
+          >
+
+
+      <a href={resume}
+      id="resume-link-2"
+        download
+        target="_blank"
+      >
+       
+          Resume
+       </a>
+       </Button>
 
 
           </div>

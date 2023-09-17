@@ -9,16 +9,27 @@ export const CTA = () => {
           {/* <button >  <a href={resume} download target='blank'  >Resume</a></button> */}
             
 
-          <a
-                
-                href={resume}
-                download
-                target='blank'
-              >
-                <Button >
-                  Resume 
-                </Button>
-              </a>
+          <Button
+          
+           
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1FTmwjzh-qF77twpLmWU9W0d0jXu2tYKI/view?usp=sharing",
+                "_blank"
+              );
+            }}
+          >
+
+
+      <a href={resume}
+    
+        download
+        target="_blank"
+      >
+       
+          Resume
+       </a>
+       </Button>
 
 
 

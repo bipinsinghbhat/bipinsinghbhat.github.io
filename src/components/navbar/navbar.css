@@ -13,13 +13,13 @@ nav{
 
 
 
-
+/* 
 #nav-menu{
     
     display:flex;
-    justify-content: space-around;
-    gap: 3.5rem;
-}
+    justify-content: space-evenly;
+    gap: 2rem;
+} */
 
 #theme__icon{
     background-color: transparent;
@@ -28,11 +28,28 @@ nav{
     cursor: pointer;
 }
 
-@media screen and (max-width:1024px) {
+/* @media screen and (max-width:600px) {
     .nav__menu{
         display: none;
         
     }
-}
+} */
 
 
+@media screen and (min-width: 600px) and (max-width: 1800px) {
+    #nav-menu{
+    
+        display:flex;
+        justify-content: space-evenly;
+        gap: 2rem;
+    } 
+  }
+
+
+  @media screen and (max-width: 600px){
+    #nav-menu{
+    
+        display:flex;
+        gap: 0.3rem;
+    } 
+  }

@@ -46,7 +46,7 @@ export const Navbar = () => {
         class="nav-link about"
       >
       
-        Contact Page
+        About
       </a>
 
        <a

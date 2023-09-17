@@ -13,9 +13,10 @@ import { Github } from './components/github/Github'
 export const App = () => {
   return (
     <div>
-      
-      <Header/>
-      <Navbar/>
+     
+        <Header/>
+        <Navbar/>
+    
        <Home/>
       <About/>
       <Skills/>
