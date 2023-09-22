@@ -76,7 +76,7 @@ button #resume-button-1{
         display: flex;
         gap: 1rem;
         width: 100%;
-        margin-left: 15rem;
+        margin-left: -1rem;
         margin-top: -4rem;
     }
 
@@ -98,7 +98,7 @@ button #resume-button-1{
         display: flex;
         gap: 1rem;
         width: 100%;
-        margin-left: 5rem;
+        margin-left: -1rem;
         margin-top: -2rem;
     }
 

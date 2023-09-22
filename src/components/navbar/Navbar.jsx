@@ -2,7 +2,7 @@ import './navbar.css';
 
 import React, { useState } from 'react'
 
-import resume from '../../assets/Bipin_Bhat_Resume.pdf'
+import resume from '../../assets/Bipin-Bhat-Resume.pdf'
 
 
 

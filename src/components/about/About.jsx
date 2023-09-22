@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import me from '../../assets/image1.png'
-import resume from '../../assets/Bipin_Bhat_Resume.pdf'
+import resume from '../../assets/Bipin-Bhat-Resume.pdf'
 import { Button } from '@chakra-ui/react'
 
 export const About = () => {
@@ -17,7 +17,7 @@ export const About = () => {
          
         </div>
         <p className='about__content' id="user-detail-intro"> 
-        A strong knowledge of frontend development, including creating and managing user interfaces using HTML, CSS, and JavaScript, as well as working with popular front-end framework like React, also having acquired skills in Data Structure and Algorithm.
+        A strong knowledge of frontend development, including creating and managing user interfaces using HTML, CSS, and JavaScript, as well as working with popular front-end framework like React and Redux, also having acquired skills in Data Structure and Algorithm.
           <br />
           <br />
           <br />

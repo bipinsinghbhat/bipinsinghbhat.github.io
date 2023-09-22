@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../../assets/Bipin_Bhat_Resume.pdf';
+import resume from '../../assets/Bipin-Bhat-Resume.pdf';
 import { Button } from '@chakra-ui/react';
 
 export const CTA = () => {
