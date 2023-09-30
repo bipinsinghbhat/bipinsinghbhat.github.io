@@ -98,7 +98,7 @@ export const Navbar = () => {
         target="_blank"
       >
        
-        <ImFolderDownload/> 
+        Resume
        </a>
        </Button>
      
